@@ -1,5 +1,5 @@
 {
-    "name": "moyuHou/xiufu-frontend-sdk",
+    "name": "moyu/xiufu-frontend-sdk",
     "keywords": ["xiufu", "frontend", "sdk"],
     "description": "xiufu frontend sdk",
     "type": "library",
