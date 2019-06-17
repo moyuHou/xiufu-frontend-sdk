@@ -1,0 +1,37 @@
+{
+    "name": "moyuHou/xiufu-frontend-sdk",
+    "keywords": ["xiufu", "frontend", "sdk"],
+    "description": "xiufu frontend sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "moyu",
+            "email": "956173562@qq.com"
+        }
+    ],
+    "require": {
+       "qixinyun/huizhong-sdk" : "~0.1"
+    },
+    "require-dev": {
+        "chloroplast/marmot-framework": "~0.3",
+        "phpunit/phpunit": "6.4.4",
+        "squizlabs/php_codesniffer": "3.1",
+        "phploc/phploc": "4.0.1",
+        "pdepend/pdepend" : "2.5.2",
+        "sebastian/phpcpd": "3.0.1",
+        "phpmd/phpmd" : "2.6.0",
+        "fzaninotto/faker": "1.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sdk\\Member\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org/"
+        }
+    }
+}
