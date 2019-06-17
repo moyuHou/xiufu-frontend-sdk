@@ -1,0 +1,46 @@
+//声明soap
+//调用函数 getTransactionPublicKey
+
+---测试第一次
+//我们入参
+//1.clientType为空 2.publickKey 为空 3.ciphertext 为空
+
+'moduleusername'=>'jxspxs',
+'modulepassword'=>'123456',
+'requestUrl'=>'http://10.2.68.91:8282/credit-webservice-portal/webservice/dataReporting'
+'clientType'=>''//null,
+'publicKey'=>''//null,
+'ciphertext'=>''//null,
+
+---测试第二次
+//我们入参
+//1.clientType为null 2.publickKey 为null 3.ciphertext 为null
+
+'moduleusername'=>'jxspxs',
+'modulepassword'=>'123456',
+'requestUrl'=>'http://10.2.68.91:8282/credit-webservice-portal/webservice/dataReporting'
+'clientType'=>null,
+'publicKey'=>null,
+'ciphertext'=>null,
+
+
+---测试第三次
+//我们入参
+//1.clientType为2 2.publickKey不为空 3.ciphertext 为 base64加密(用户名+密码)
+
+'moduleusername'=>'jxspxs',
+'modulepassword'=>'123456',
+'requestUrl'=>'http://10.2.68.91:8282/credit-webservice-portal/webservice/dataReporting'
+'clientType'=>2,
+'publicKey'=>'20190417114647128629',
+'ciphertext'=>base64_encode('jxspxs123456'),
+
+---测试第四次
+//我们入参
+//1.clientType不传 2.publickKey不传 3.ciphertext不传
+
+'moduleusername'=>'jxspxs',
+'modulepassword'=>'123456',
+'requestUrl'=>'http://10.2.68.91:8282/credit-webservice-portal/webservice/dataReporting'
+
+//返回空
