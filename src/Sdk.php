@@ -1,10 +1,10 @@
 <?php
-namespace Sdk\News;
+namespace Sdk\Xiufu;
 
-use Marmot\Framework\Interfaces\ISdk;
-use Sdk\News\Repository\NewsRepository;
+// use Marmot\Framework\Interfaces\ISdk;
+use Sdk\Xiufu\News\Repository\NewsRepository;
 
-class Sdk implements ISdk
+class Sdk 
 {
     private $uri;
 

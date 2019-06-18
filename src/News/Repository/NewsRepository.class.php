@@ -1,7 +1,7 @@
 <?php
-namespace Sdk\News\Repository;
+namespace Sdk\Xiufu\News\Repository;
 
-use Sdk\News\Adapter\NewsRestfulAdapter;
+use Sdk\Xiufu\News\Adapter\NewsRestfulAdapter;
 
 class NewsRepository
 {

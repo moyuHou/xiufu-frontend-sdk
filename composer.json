@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sdk\\News\\": "src"
+            "Sdk\\Xiufu\\": "src"
         }
     },
     "repositories": {

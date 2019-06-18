@@ -1,5 +1,5 @@
 <?php
-namespace Sdk\News\Adapter;
+namespace Sdk\Xiufu\News\Adapter;
 
 class NewsRestfulAdapter extends GuzzleAdapter
 {
