@@ -23,11 +23,7 @@ class NewsRestfulAdapter extends GuzzleAdapter
     public function fetchOne($id)
     {
         return "success";
-<<<<<<< HEAD
         // return $this->fetchOneAction($id);
-=======
-        return $this->fetchOneAction($id);
->>>>>>> 95c011c3999771f64496d482ee6c739652bc01e1
     }
 
 }

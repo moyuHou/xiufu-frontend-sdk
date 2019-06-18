@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sdk\\Member\\": "src"
+            "Sdk\\News\\": "src"
         }
     },
     "repositories": {

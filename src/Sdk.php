@@ -1,5 +1,5 @@
 <?php
-namespace Sdk\Member;
+namespace Sdk\News;
 
 use Marmot\Framework\Interfaces\ISdk;
 use Sdk\News\Repository\NewsRepository;
